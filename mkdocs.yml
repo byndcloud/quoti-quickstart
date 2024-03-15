@@ -1,0 +1,22 @@
+site_name: Quoti QuickStart
+# site_url: https://github.com/orgs/byndcloud
+nav:
+  - Inicio: ./
+  - Primeiros passos: firstSteps/
+  - Guia do Usuário: 
+    - 'Item 1': 
+      - 'Item 1.1': ./
+    - 'Item 2': ./
+    - 'Item 2': ./
+  - Exemplos:
+    - 'sub-menu1': './'
+    - 'sub-menu2': './'
+  - FAQ: ./
+  - Suporte: ./
+  - Sobre:
+      - 'Atualizações': ./
+      - 'Como contribuir': ./
+      - Licença: ./
+# next_page: Page
+extra_css:
+  - ./style.css
