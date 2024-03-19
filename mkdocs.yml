@@ -1,22 +1,79 @@
 site_name: Quoti QuickStart
 # site_url: https://github.com/orgs/byndcloud
 nav:
-  - Inicio: ./
-  - Primeiros passos: firstSteps/
-  - Guia do Usuário: 
-    - 'Item 1': 
-      - 'Item 1.1': ./
-    - 'Item 2': ./
-    - 'Item 2': ./
-  - Exemplos:
-    - 'sub-menu1': './'
-    - 'sub-menu2': './'
-  - FAQ: ./
-  - Suporte: ./
-  - Sobre:
-      - 'Atualizações': ./
-      - 'Como contribuir': ./
-      - Licença: ./
+  # - Inicio: ./
+  # - Primeiros passos: firstSteps/
+  # - Guia do Usuário: 
+  #   - 'Item 1': 
+  #     - 'Item 1.1': ./
+  #   - 'Item 2': ./
+  #   - 'Item 2': ./
+  - Introdução: 
+    - Visão geral do Quoti: ./
+    - Propósito da documentação: ./
+  - Usuário: 
+    - Visão geral: ./user
+    - Login e configurações: ./
+    - Redefinição de senha: ./
+    - Gestão de usuários: ./
+    - Perfis de usuários e gestão de menus: ./
+    - Informações gerais da organização: ./
+    - Personalização de temas: ./
+  - Essenciais: 
+    - Gestão de grupos: ./
+    - Gestão de permissões: ./
+    - Gestão de métodos de login: ./
+    - Criação e gestão de formulários: 
+      - Introdução aos formulários: 
+        - Criação e edição de formulários: ./
+        - Utilização do CRUD via interface: ./
+        - Básico de FormsFlows: ./
+      - Extensões Quoti:
+        - Visão geral e exemplos: ./
+        - Adicionar e gerenciar extensões no menu: ./
+        - Gerenciamento de versões das extensões: ./
+  - Desenvolvimento:
+    - FormsFlow avançado: ./
+    - Gestão de databases: 
+      - Criação e edição: ./
+      - Utilização do CRUD (interface e API): ./
+    - Desenvolvimento de extensões com Quoti CLI: 
+      - Introdução ao Quoti CLI: ./
+      - Hello World: ./
+      - Criação de extensões:
+        - visão geral: ./ 
+        - CRUD: ./
+        - integrações: ./ 
+        - permissões: ./
+  - Avançados:
+    - Single Sign-On (SSO) com Quoti: ./
+    - Configuração com:
+      - Okta: ./
+      - Google: ./
+      - Microsoft: ./
+      - Outros: ./
+    - Multi-tenancy: ./
+    - Avançado em databases: 
+      - Tipos de campos customizados: ./
+      - Hooks: ./
+    - Quoti CLI Avançado: ./
+    - Publicação no Marketplace: ./
+  - Atualizações:
+    - Processo de revisão e atualização: ./
+    - Feedback e contribuições dos usuários: ./
+    - Anexos e Recursos Adicionais:
+      - Glossário de termos: ./
+      - FAQ (Perguntas Frequentes): ./
+      - Links úteis e recursos externos: ./
+  # - Exemplos:
+  #   - 'sub-menu1': './'
+  #   - 'sub-menu2': './'
+  # - FAQ: ./
+  # - Suporte: ./
+  # - Sobre:
+  #     - 'Atualizações': ./
+  #     - 'Como contribuir': ./
+  #     - Licença: ./
 # next_page: Page
 extra_css:
   - ./style.css
