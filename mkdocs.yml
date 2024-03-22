@@ -1,5 +1,8 @@
-site_name: Quoti QuickStart
-# site_url: https://github.com/orgs/byndcloud
+# <img src="./assets/img/logo-quoti.png" width="30" />
+site_name: 'Quoti QuickStart'
+site_url: https://github.com/orgs/byndcloud
+site_description: Site description
+copyright: '<img src="https://beyondcompany.com.br/img/logo.62069458.svg" /> '
 nav:
   # - Inicio: ./
   # - Primeiros passos: firstSteps/
@@ -9,62 +12,62 @@ nav:
   #   - 'Item 2': ./
   #   - 'Item 2': ./
   - Introdução: 
-    - Visão geral do Quoti: ./
-    - Propósito da documentação: ./
+    - Visão geral do Quoti: ./index.md
+    - Propósito da documentação: ./into/purpose.md
   - Usuário: 
-    - Visão geral: ./user
-    - Login e configurações: ./
-    - Redefinição de senha: ./
-    - Gestão de usuários: ./
-    - Perfis de usuários e gestão de menus: ./
-    - Informações gerais da organização: ./
-    - Personalização de temas: ./
+    - Visão geral: ./user/index.md
+    - Login e configurações: ./under-development.md
+    - Redefinição de senha: ./under-development.md
+    - Gestão de usuários: ./under-development.md
+    - Perfis de usuários e gestão de menus: ./under-development.md
+    - Informações gerais da organização: ./under-development.md
+    - Personalização de temas: ./under-development.md
   - Essenciais: 
-    - Gestão de grupos: ./
-    - Gestão de permissões: ./
-    - Gestão de métodos de login: ./
+    - Gestão de grupos: ./under-development.md
+    - Gestão de permissões: ./under-development.md
+    - Gestão de métodos de login: ./under-development.md
     - Criação e gestão de formulários: 
       - Introdução aos formulários: 
-        - Criação e edição de formulários: ./
-        - Utilização do CRUD via interface: ./
-        - Básico de FormsFlows: ./
+        - Criação e edição de formulários: ./under-development.md
+        - Utilização do CRUD via interface: ./under-development.md
+        - Básico de FormsFlows: ./under-development.md
       - Extensões Quoti:
-        - Visão geral e exemplos: ./
-        - Adicionar e gerenciar extensões no menu: ./
-        - Gerenciamento de versões das extensões: ./
+        - Visão geral e exemplos: ./under-development.md
+        - Adicionar e gerenciar extensões no menu: ./under-development.md
+        - Gerenciamento de versões das extensões: ./under-development.md
   - Desenvolvimento:
-    - FormsFlow avançado: ./
+    - FormsFlow avançado: ./under-development.md
     - Gestão de databases: 
-      - Criação e edição: ./
-      - Utilização do CRUD (interface e API): ./
+      - Criação e edição: ./under-development.md
+      - Utilização do CRUD (interface e API): ./under-development.md
     - Desenvolvimento de extensões com Quoti CLI: 
-      - Introdução ao Quoti CLI: ./
-      - Hello World: ./
+      - Introdução ao Quoti CLI: ./under-development.md
+      - Hello World: ./under-development.md
       - Criação de extensões:
-        - visão geral: ./ 
-        - CRUD: ./
-        - integrações: ./ 
-        - permissões: ./
+        - visão geral: ./under-development.md 
+        - CRUD: ./under-development.md
+        - integrações: ./under-development.md 
+        - permissões: ./under-development.md
   - Avançados:
-    - Single Sign-On (SSO) com Quoti: ./
+    - Single Sign-On (SSO) com Quoti: ./under-development.md
     - Configuração com:
-      - Okta: ./
-      - Google: ./
-      - Microsoft: ./
-      - Outros: ./
-    - Multi-tenancy: ./
+      - Okta: ./under-development.md
+      - Google: ./under-development.md
+      - Microsoft: ./under-development.md
+      - Outros: ./under-development.md
+    - Multi-tenancy: ./under-development.md
     - Avançado em databases: 
-      - Tipos de campos customizados: ./
-      - Hooks: ./
-    - Quoti CLI Avançado: ./
-    - Publicação no Marketplace: ./
+      - Tipos de campos customizados: ./under-development.md
+      - Hooks: ./under-development.md
+    - Quoti CLI Avançado: ./under-development.md
+    - Publicação no Marketplace: ./under-development.md
   - Atualizações:
-    - Processo de revisão e atualização: ./
-    - Feedback e contribuições dos usuários: ./
+    - Processo de revisão e atualização: ./under-development.md
+    - Feedback e contribuições dos usuários: ./under-development.md
     - Anexos e Recursos Adicionais:
-      - Glossário de termos: ./
-      - FAQ (Perguntas Frequentes): ./
-      - Links úteis e recursos externos: ./
+      - Glossário de termos: ./under-development.md
+      - FAQ (Perguntas Frequentes): ./under-development.md
+      - Links úteis e recursos externos: ./under-development.md
   # - Exemplos:
   #   - 'sub-menu1': './'
   #   - 'sub-menu2': './'
@@ -77,3 +80,14 @@ nav:
 # next_page: Page
 extra_css:
   - ./style.css
+theme:
+  name: mkdocs
+locale: pt_BR
+
+# include_sidebar: true
+# static_templates:
+#   - sitemap.html
+# links:
+#   not_found: warn
+#   absolute_links: info
+#   unrecognized_links: info
