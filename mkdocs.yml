@@ -14,13 +14,14 @@ nav:
   - Introdução: 
     - Visão geral do Quoti: ./index.md
     - Propósito da documentação: ./into/purpose.md
+    - Primeiro Passo: ./into/step-1.md
   - Usuário: 
     - Visão geral: ./user/index.md
-    - Login e configurações: ./under-development.md
-    - Redefinição de senha: ./under-development.md
-    - Gestão de usuários: ./under-development.md
-    - Perfis de usuários e gestão de menus: ./under-development.md
-    - Informações gerais da organização: ./under-development.md
+    - Login e configurações: ./user/login.md
+    - Redefinição de senha: ./user/password-reset.md
+    - Gestão de usuários: ./user/user-management.md
+    - Perfis de usuários e gestão de menus: ./user/user-management.md
+    - Informações gerais da organização: ./user/info-org.md
     - Personalização de temas: ./under-development.md
   - Essenciais: 
     - Gestão de grupos: ./under-development.md
@@ -62,6 +63,7 @@ nav:
     - Quoti CLI Avançado: ./under-development.md
     - Publicação no Marketplace: ./under-development.md
   - Atualizações:
+    - Como contribuir: ./updates/how-to-contribute.md
     - Processo de revisão e atualização: ./under-development.md
     - Feedback e contribuições dos usuários: ./under-development.md
     - Anexos e Recursos Adicionais:
