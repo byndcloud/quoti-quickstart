@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://github.com/orgs/byndcloud/user/user-management/">
+        <link rel="canonical" href="https://github.com/orgs/byndcloud/user/user-profile/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Perfis de usuários e gestão de menus - Quoti QuickStart</title>
+        <title>Criação de Perfis de Usuário no Quoti - Quoti QuickStart</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -48,7 +48,7 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Usuário <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -65,11 +65,11 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item">Gestão de usuários</a>
+    <a href="../user-management/" class="dropdown-item">Gestão de usuários</a>
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Perfis de usuários e gestão de menus</a>
+    <a href="../user-management/" class="dropdown-item">Perfis de usuários e gestão de menus</a>
 </li>
                                     
 <li>
@@ -299,16 +299,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="./" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../info-org/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -327,21 +317,9 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#gestao-de-usuarios-no-quoti" class="nav-link">Gestão de Usuários no Quoti</a>
+            <li class="nav-item" data-level="1"><a href="#criacao-de-perfis-de-usuario-no-quoti" class="nav-link">Criação de Perfis de Usuário no Quoti</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#informacoes-basicas" class="nav-link">Informações Básicas</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#grupos" class="nav-link">Grupos</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#relacionamentos" class="nav-link">Relacionamentos</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#funcionalidades-administrativas-adicionais" class="nav-link">Funcionalidades Administrativas Adicionais</a>
+            <li class="nav-item" data-level="2"><a href="#como-criar-um-novo-perfil-de-usuario" class="nav-link">Como Criar um Novo Perfil de Usuário</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -352,51 +330,51 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="gestao-de-usuarios-no-quoti">Gestão de Usuários no Quoti</h1>
-<p>A gestão de usuários é um componente central da plataforma Quoti, permitindo que os administradores gerenciem informações básicas, grupos e relacionamentos dos usuários.</p>
-<h2 id="informacoes-basicas">Informações Básicas</h2>
-<h3 id="acessando-as-informacoes">Acessando as Informações</h3>
-<p>Para modificar as informações básicas de um usuário, navegue até o perfil desejado através da seção de gestão de usuários.</p>
-<h3 id="campos-editaveis">Campos Editáveis</h3>
-<p>Os administradores podem atualizar vários detalhes, como:</p>
+<h1 id="criacao-de-perfis-de-usuario-no-quoti">Criação de Perfis de Usuário no Quoti</h1>
+<p>Para começar a configurar perfis de usuário na plataforma Quoti, você precisa navegar até o endereço <code>orgSlug</code>/userprofiles, substituindo <code>orgSlug</code> pelo identificador da sua organização.</p>
+<h2 id="como-criar-um-novo-perfil-de-usuario">Como Criar um Novo Perfil de Usuário</h2>
+<h3 id="acesso-ao-modulo-de-perfis">Acesso ao Módulo de Perfis</h3>
+<p>Dirija-se à seção específica dentro do painel de controle Quoti inserindo a URL fornecida acima. Este será o seu ponto de partida para gerenciar perfis de usuário.</p>
+<h3 id="definicao-das-informacoes-do-perfil">Definição das Informações do Perfil</h3>
+<ol>
+<li>
+<p><strong>Nome</strong>: Defina um nome claro e representativo para o perfil, como 'Administrador'.</p>
+</li>
+<li>
+<p><strong>Nome no Plural</strong>: Especifique como o nome do perfil deve aparecer no plural, por exemplo, 'Administradores', para facilitar a referência a múltiplos usuários com o mesmo perfil.</p>
+</li>
+<li>
+<p><strong>Slug</strong>: Este é o apelido único para o perfil que serve como identificador no sistema, como 'admin'.</p>
+</li>
+</ol>
+<h3 id="configuracoes-de-acesso-e-autenticacao">Configurações de Acesso e Autenticação</h3>
+<ol>
+<li>
+<p><strong>Tela Principal</strong>: Escolha a página que os usuários deste perfil verão primeiro após o login. Selecione-a a partir de um menu dropdown, como 'Página do Item de Menu → Solicitações (Novo!)'.</p>
+</li>
+<li>
+<p><strong>Método de Login</strong>: Determine o método de login que os usuários deverão utilizar, o qual pode variar dependendo das opções do sistema.</p>
+</li>
+<li>
+<p><strong>Tipo de Autenticação</strong>: Opte pelo método padrão de autenticação, 'Padrão (Usuário e Senha)', ou por outro método disponível na lista.</p>
+</li>
+<li>
+<p><strong>Força de Senha Mínima</strong>: Escolha o nível de complexidade exigido para as senhas dos usuários, ajudando a garantir melhores práticas de segurança.</p>
+</li>
+</ol>
+<h3 id="opcoes-de-configuracao-avancada">Opções de Configuração Avançada</h3>
 <ul>
-<li><strong>Nome do usuário</strong>: O nome ou identificador do usuário dentro do sistema.</li>
-<li><strong>Login do usuário</strong>: Geralmente é um identificador único ou número de matrícula.</li>
-<li><strong>Perfil do usuário</strong>: Define a função do usuário no sistema, como 'Advogado'.</li>
-<li><strong>Matrícula do usuário</strong>: Um número específico que pode estar associado ao usuário.</li>
-<li><strong>CPF do usuário</strong>: Número do Cadastro de Pessoas Físicas do usuário.</li>
-<li><strong>Data de nascimento</strong>: Importante para dados demográficos ou de contato.</li>
-<li><strong>Email do usuário</strong>: Endereço de email associado ao usuário para comunicação.</li>
-<li><strong>Telefone do usuário</strong>: Contato telefônico para comunicação direta.</li>
+<li><strong>Filtragem</strong>: Se necessário, utilize a opção 'Filtrar por grupo' para associar o perfil a grupos de usuários específicos.</li>
+<li><strong>Criação Automática de Conta</strong>: Ative 'Habilitar auto criação de conta sem autorização prévia' caso deseje permitir que usuários se cadastrem sem necessidade de aprovação manual.</li>
+<li><strong>Integração com Webhooks</strong>: Selecione 'Chamar Webhook para novos usuários' para integrar ações automáticas de terceiros quando um novo usuário for criado.</li>
 </ul>
-<p>Os administradores também podem:</p>
-<ul>
-<li><strong>Desativar a conta do usuário</strong>: Se necessário, podem temporariamente desativar o acesso do usuário ao sistema.</li>
-<li><strong>Confirmar se o usuário está registrado</strong>: E se a sincronização está ativa, garantindo que as informações estão atualizadas.</li>
-</ul>
-<h2 id="grupos">Grupos</h2>
-<h3 id="associando-a-grupos">Associando a Grupos</h3>
-<p>Os usuários podem ser associados a grupos específicos para definir permissões e acessos baseados em equipe ou departamento.</p>
-<h3 id="gestao-de-papeis-em-grupos">Gestão de Papéis em Grupos</h3>
-<ul>
-<li><strong>Pertençam a um grupo</strong>: Selecionar o grupo ao qual o usuário pertence.</li>
-<li><strong>Papel nos grupos</strong>: Especificar o papel ou função do usuário dentro dos grupos aos quais pertence.</li>
-</ul>
-<h2 id="relacionamentos">Relacionamentos</h2>
-<h3 id="configuracao-de-relacionamentos">Configuração de Relacionamentos</h3>
-<p>Os relacionamentos entre usuários podem ser configurados para estabelecer hierarquias ou dependências, como supervisão ou parcerias.</p>
-<h3 id="adicao-de-relacionamentos">Adição de Relacionamentos</h3>
-<ul>
-<li><strong>Destinatários</strong>: Selecionar outros usuários que estão relacionados a este usuário, por exemplo, a quem este usuário responde.</li>
-<li><strong>Relacionamento</strong>: Definir a natureza do relacionamento, como supervisor, colega, cliente, etc.</li>
-</ul>
-<h2 id="funcionalidades-administrativas-adicionais">Funcionalidades Administrativas Adicionais</h2>
-<p>Os administradores também têm acesso a ferramentas adicionais para:</p>
-<ul>
-<li><strong>Link de login rápido</strong>: Gerar um link direto para o login do usuário.</li>
-<li><strong>Deletar este usuário</strong>: Remover permanentemente o usuário do sistema.</li>
-</ul>
-<p>Lembre-se de que as alterações nos perfis dos usuários devem ser feitas com cautela, pois afetam o acesso e as permissões dentro do Quoti.</p></div>
+<h3 id="atribuicao-de-permissoes">Atribuição de Permissões</h3>
+<p>Configure as permissões que os usuários com esse perfil terão dentro da plataforma. Use o campo 'Permissões' para especificar estas ações.</p>
+<h3 id="dados-adicionais">Dados Adicionais</h3>
+<p>Se houver necessidade de coletar informações adicionais dos usuários, utilize o botão 'Configurar dados adicionais'.</p>
+<h3 id="salvamento-do-perfil">Salvamento do Perfil</h3>
+<p>Após completar as configurações, não esqueça de salvar o novo perfil clicando em 'Salvar alterações' ou equivalente.</p>
+<p>Siga estas etapas para garantir que cada perfil de usuário no Quoti seja configurado com as informações e permissões adequadas para suas funções dentro da organização.</p></div>
             </div>
         </div>
 

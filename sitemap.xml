@@ -2,47 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/orgs/byndcloud/</loc>
-         <lastmod>2024-03-22</lastmod>
+         <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/orgs/byndcloud/under-development/</loc>
-         <lastmod>2024-03-22</lastmod>
+         <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/orgs/byndcloud/about/</loc>
-         <lastmod>2024-03-22</lastmod>
+         <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/orgs/byndcloud/firstSteps/</loc>
-         <lastmod>2024-03-22</lastmod>
+         <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/orgs/byndcloud/into/purpose/</loc>
-         <lastmod>2024-03-22</lastmod>
+         <lastmod>2024-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/orgs/byndcloud/into/step-1/</loc>
+         <lastmod>2024-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/orgs/byndcloud/updates/how-to-contribute/</loc>
+         <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/orgs/byndcloud/user/</loc>
-         <lastmod>2024-03-22</lastmod>
+         <lastmod>2024-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/orgs/byndcloud/user/info-org/</loc>
+         <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/orgs/byndcloud/user/login/</loc>
-         <lastmod>2024-03-22</lastmod>
+         <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/orgs/byndcloud/user/password-reset/</loc>
-         <lastmod>2024-03-22</lastmod>
+         <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/orgs/byndcloud/user/user-management/</loc>
-         <lastmod>2024-03-22</lastmod>
+         <lastmod>2024-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/orgs/byndcloud/user/user-profile/</loc>
+         <lastmod>2024-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
