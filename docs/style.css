@@ -1,5 +1,5 @@
 /* css extra */
-/* input, button {
+input, button {
     padding: 10px;
     border: none; /* <-- This thing here */
     border:solid 1px #ccc;
