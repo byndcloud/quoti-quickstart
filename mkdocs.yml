@@ -1,20 +1,8 @@
-# <img src="./assets/img/logo-quoti.png" width="30" />
-# [ ] vários tipos/metodos de login no mesmo sistema, cpf, ou matricula por exemplo.
-# [ ] criar readme
-# [ ] mudar quoti-quickstart para quoti-docs
-
 site_name: 'Quoti QuickStart'
 site_url: https://github.com/orgs/byndcloud
 site_description: Site description
 copyright: '<img src="https://beyondcompany.com.br/img/logo.62069458.svg" /> '
 nav:
-  # - Inicio: ./
-  # - Primeiros passos: firstSteps/
-  # - Guia do Usuário: 
-  #   - 'Item 1': 
-  #     - 'Item 1.1': ./
-  #   - 'Item 2': ./
-  #   - 'Item 2': ./
   - Início: 
     - Visão geral do Quoti: ./index.md
     - Propósito da documentação: ./into/purpose.md
@@ -24,7 +12,7 @@ nav:
     - Login e configurações: ./user/login.md
     - Redefinição de senha: ./user/password-reset.md
     - Gestão de usuários: ./user/user-management.md
-    - Perfis de usuários e gestão de menus: ./user/user-management.md
+    - Perfis de usuários e gestão de menus: ./user/user-profile.md
     - Informações gerais da organização: ./user/info-org.md
     - Personalização de temas: ./user/theme.md
   - Essenciais: 
@@ -74,28 +62,10 @@ nav:
       - Glossário de termos: ./under-development.md
       - FAQ (Perguntas Frequentes): ./under-development.md
       - Links úteis e recursos externos: ./under-development.md
-  # - Exemplos:
-  #   - 'sub-menu1': './'
-  #   - 'sub-menu2': './'
-  # - FAQ: ./
-  # - Suporte: ./
-  # - Sobre:
-  #     - 'Atualizações': ./
-  #     - 'Como contribuir': ./
-  #     - Licença: ./
-# next_page: Page
 extra_css:
   - ./style.css
 theme:
   name: mkdocs
   analytics:
     gtag: G-3QNY6VLCC5
-locale: pt_BR
-
-# include_sidebar: true
-# static_templates:
-#   - sitemap.html
-# links:
-#   not_found: warn
-#   absolute_links: info
-#   unrecognized_links: info
+# locale: pt_BR
