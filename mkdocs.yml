@@ -1,4 +1,8 @@
 # <img src="./assets/img/logo-quoti.png" width="30" />
+# [ ] vários tipos/metodos de login no mesmo sistema, cpf, ou matricula por exemplo.
+# [ ] criar readme
+# [ ] mudar quoti-quickstart para quoti-docs
+
 site_name: 'Quoti QuickStart'
 site_url: https://github.com/orgs/byndcloud
 site_description: Site description
@@ -11,7 +15,7 @@ nav:
   #     - 'Item 1.1': ./
   #   - 'Item 2': ./
   #   - 'Item 2': ./
-  - Introdução: 
+  - Início: 
     - Visão geral do Quoti: ./index.md
     - Propósito da documentação: ./into/purpose.md
     - Primeiro Passo: ./into/step-1.md
@@ -22,11 +26,11 @@ nav:
     - Gestão de usuários: ./user/user-management.md
     - Perfis de usuários e gestão de menus: ./user/user-management.md
     - Informações gerais da organização: ./user/info-org.md
-    - Personalização de temas: ./under-development.md
+    - Personalização de temas: ./user/theme.md
   - Essenciais: 
-    - Gestão de grupos: ./under-development.md
-    - Gestão de permissões: ./under-development.md
-    - Gestão de métodos de login: ./under-development.md
+    - Gestão de grupos: ./essential/group-management.md
+    - Gestão de permissões: ./essential/permissions-management.md
+    - Gestão de métodos de login: ./essential/login-method-management.md
     - Criação e gestão de formulários: 
       - Introdução aos formulários: 
         - Criação e edição de formulários: ./under-development.md
@@ -84,6 +88,8 @@ extra_css:
   - ./style.css
 theme:
   name: mkdocs
+  analytics:
+    gtag: G-3QNY6VLCC5
 locale: pt_BR
 
 # include_sidebar: true

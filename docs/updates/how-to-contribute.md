@@ -10,7 +10,7 @@ Para começar, você precisa ter uma cópia do projeto na sua conta do GitHub. V
 ### 2. Clone o Repositório
 Após o fork, clone o repositório para a sua máquina local usando:
 ```sh
-git clone git@github.com:byndcloud/quoti-quickstart.git
+git clone git@github.com:byndcloud/quoti-docs.git
 ```
 
 ### 3. Crie uma Branch
