@@ -1,4 +1,4 @@
-site_name: 'Quoti QuickStart'
+site_name: 'Quoti Docs'
 site_url: https://github.com/orgs/byndcloud
 site_description: Site description
 copyright: '<img src="https://beyondcompany.com.br/img/logo.62069458.svg" /> '
@@ -62,10 +62,12 @@ nav:
       - Glossário de termos: ./under-development.md
       - FAQ (Perguntas Frequentes): ./under-development.md
       - Links úteis e recursos externos: ./under-development.md
+  - FAQ:
+    - Ambiente CSM: ./faq/csm/faq.md    
 extra_css:
   - ./style.css
 theme:
-  name: mkdocs
+  name: bootstrap
   analytics:
     gtag: G-3QNY6VLCC5
 # locale: pt_BR
