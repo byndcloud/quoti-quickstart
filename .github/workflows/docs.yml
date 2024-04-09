@@ -15,21 +15,21 @@ jobs:
       #     private-key: ${{ secrets.BEYOND_CO_BOT_PRIVATE_KEY }}
       - name: Setup environment
         uses: actions/checkout@v4
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - name: Install dependencies
-        run: |
-          pip install mkdocs
-          pip install mkdocs-bootstrap
+      # - name: Setup Python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: 3.x
+      # - name: Install dependencies
+      #   run: |
+      #     pip install mkdocs
+      #     pip install mkdocs-bootstrap
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.BEYOND_CO_BOT_SECRET_KEY }}
           #CUSTOM_DOMAIN: optionaldomain.com
           CONFIG_FILE: mkdocs.yml
-          # EXTRA_PACKAGES: build-base
+          EXTRA_PACKAGES: build-base
           # GITHUB_DOMAIN: github.myenterprise.com
           # REQUIREMENTS: requirements.txt
       # - name: Setup github user infos
