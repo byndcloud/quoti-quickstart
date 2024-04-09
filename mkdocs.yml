@@ -63,7 +63,7 @@ nav:
       - FAQ (Perguntas Frequentes): ./under-development.md
       - Links úteis e recursos externos: ./under-development.md
   - FAQ:
-    - Ambiente CSM: ./faq/csm/faq.md    
+    - Ambiente CSM: ./faq/csm/index.md
 extra_css:
   - ./style.css
 theme:
