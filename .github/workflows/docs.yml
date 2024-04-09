@@ -1,25 +1,30 @@
-name: docs 
+name: docs
 on:
   push:
     branches:
-    - main
-  pull_request:
-    branches:
-    - main
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions-bot
-          git config user.email quoti-docs-actions-bot@noreply.github.com
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.BEYOND_CO_BOT_ID }}
+          private-key: ${{ secrets.BEYOND_CO_BOT_PRIVATE_KEY }}
+      - name: Use the token
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs
-      - run: pip install mkdocs-bootstrap
-      - run: mkdocs gh-deploy --force
-      - run: mkdocs --version
+      - name: Install dependencies
+        run: |
+          pip install mkdocs
+          pip install mkdocs-bootstrap
+      - name: Deploy
+        run: mkdocs gh-deploy --force
