@@ -34,6 +34,8 @@ jobs:
           git config user.email "${GITHUB_ACTOR}"@users.noreply.github.com
           git remote rm origin
           git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+      - name: Add CNAME config with docs.quoti.cloud
+        run: echo "docs.quoti.cloud" > docs/CNAME
       - name: Deploy with the token
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
