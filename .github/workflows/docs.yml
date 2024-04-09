@@ -7,44 +7,14 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # - name: Generate a token
-      #   id: generate-token
-      #   uses: actions/create-github-app-token@v1
-      #   with:
-      #     app-id: ${{ secrets.BEYOND_CO_BOT_ID }}
-      #     private-key: ${{ secrets.BEYOND_CO_BOT_PRIVATE_KEY }}
-      - name: Setup environment
-        uses: actions/checkout@v4
-      # - name: Setup Python
-      #   uses: actions/setup-python@v5
-      #   with:
-      #     python-version: 3.x
-      # - name: Install dependencies
-      #   run: |
-      #     pip install mkdocs
-      #     pip install mkdocs-bootstrap
+      - name: Checkout main
+        uses: actions/checkout@v2
+      - name: Only to see current BEYOND_CO_BOT_SECRET_KEY
+        run: echo ${{ secrets.BEYOND_CO_BOT_SECRET_KEY }}
       - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
         env:
           GITHUB_TOKEN: ${{ secrets.BEYOND_CO_BOT_SECRET_KEY }}
-          #CUSTOM_DOMAIN: optionaldomain.com
           CONFIG_FILE: mkdocs.yml
           EXTRA_PACKAGES: build-base
-          # GITHUB_DOMAIN: github.myenterprise.com
-          # REQUIREMENTS: requirements.txt
-      # - name: Setup github user infos
-      #   env:
-      #     # GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-      #     GITHUB_TOKEN: ${{ secrets.BEYOND_CO_BOT_SECRET_KEY }}
-      #   run: |
-      #     git config --global --add safe.directory "$GITHUB_WORKSPACE"
-      #     git config user.name "${GITHUB_ACTOR}"
-      #     git config user.email "${GITHUB_ACTOR}"@users.noreply.github.com
-      #     git remote rm origin
-      #     git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-      # # - name: Build the site
-      # #   run: mkdocs build
-      # - name: Deploy with the token
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.BEYOND_CO_BOT_SECRET_KEY }}
-      #   run: mkdocs gh-deploy --force
+          REQUIREMENTS: requirements.txt
