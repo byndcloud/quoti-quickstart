@@ -1,0 +1,17 @@
+# Workflow designer
+
+Owner: Levi Nóbrega
+
+<aside>
+💡 Com o Quoti é possível construir fluxos que integram sistemas, realizam checagens em intervalos de tempo e customização de regras de negócio em extensões e eventos da plataforma.
+
+</aside>
+
+Recomendamos a solução *opensource* [N8N](https://n8n.io) como motor do nosso workflow designer.
+
+Para mais documentações, confira a [documentação do N8N](https://docs.n8n.io/).
+
+Outras soluções que funcionam bem com o quoti: 
+
+1. [https://www.activepieces.com/](https://www.activepieces.com/)
+2. [https://zapier.com/](https://zapier.com/)
