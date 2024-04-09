@@ -13,10 +13,7 @@ jobs:
         with:
           app-id: ${{ secrets.BEYOND_CO_BOT_ID }}
           private-key: ${{ secrets.BEYOND_CO_BOT_PRIVATE_KEY }}
-      - name: Use the token
-        env:
-          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+      - name: Setup environment
         uses: actions/checkout@v2
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -26,5 +23,8 @@ jobs:
         run: |
           pip install mkdocs
           pip install mkdocs-bootstrap
-      - name: Deploy
+      - name: Deploy with the token
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
         run: mkdocs gh-deploy --force
