@@ -35,4 +35,4 @@ jobs:
       - name: Deploy with the token
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-        run: mkdocs gh-deploy --force
+        run: mkdocs gh-deploy
