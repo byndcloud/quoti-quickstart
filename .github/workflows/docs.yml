@@ -14,7 +14,7 @@ jobs:
           app-id: ${{ secrets.BEYOND_CO_BOT_ID }}
           private-key: ${{ secrets.BEYOND_CO_BOT_PRIVATE_KEY }}
       - name: Setup environment
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
@@ -23,8 +23,16 @@ jobs:
         run: |
           pip install mkdocs
           pip install mkdocs-bootstrap
+      - name: Setup github user infos
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}"@users.noreply.github.com
+          git remote rm origin
+          git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
       - name: Deploy with the token
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
         run: mkdocs gh-deploy --force
