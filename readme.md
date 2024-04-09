@@ -4,7 +4,7 @@ Bem-vindo ao repositório oficial da documentação do Quoti no GitHub. Este rep
 
 ## Sobre o Quoti
 
-O Quoti é uma plataforma abrangente que capacita empresas e instituições educacionais a gerir projetos de maneira mais eficaz, aprimorar a comunicação interna e externa e facilitar a tomada de decisões baseadas em dados. Construído para proporcionar uma experiência intuitiva e fluída aos seus usuários, o Quoti se destaca por suas bases de dados customizáveis, métodos de autenticação versáteis e amplas capacidades de integração.
+O Quoti é uma plataforma abrangente que capacita empresas e organizações a gerir projetos de maneira mais eficaz, aprimorar a comunicação interna e externa e facilitar a tomada de decisões baseadas em dados. Construído para proporcionar uma experiência intuitiva e fluída aos seus usuários, o Quoti se destaca por suas bases de dados customizáveis, métodos de autenticação versáteis e amplas capacidades de integração.
 
 ## Usando o MkDocs
 
