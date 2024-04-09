@@ -21,8 +21,8 @@ nav:
     - Gestão de métodos de login: ./essential/login-method-management.md
     - Criação e gestão de formulários: 
       - Introdução aos formulários: 
-        - Criação e edição de formulários: ./under-development.md
-        - Utilização do CRUD via interface: ./under-development.md
+        - Criação e edição de formulários: ./essential/forms/intro.md
+        - Utilização do CRUD via interface: ./essential/forms/crud.md
         - Básico de FormsFlows: ./under-development.md
       - Extensões Quoti:
         - Visão geral e exemplos: ./under-development.md
