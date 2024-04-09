@@ -67,7 +67,7 @@ nav:
 extra_css:
   - ./style.css
 theme:
-  name: bootstrap
+  name: material
   analytics:
     gtag: G-3QNY6VLCC5
 # locale: pt_BR
