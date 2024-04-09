@@ -23,19 +23,28 @@ jobs:
         run: |
           pip install mkdocs
           pip install mkdocs-bootstrap
-      - name: Setup github user infos
-        env:
-          # GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-          GITHUB_TOKEN: ${{ secrets.BEYOND_CO_BOT_SECRET_KEY }}
-        run: |
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}"@users.noreply.github.com
-          git remote rm origin
-          git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-      # - name: Build the site
-      #   run: mkdocs build
-      - name: Deploy with the token
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.BEYOND_CO_BOT_SECRET_KEY }}
-        run: mkdocs gh-deploy --force
+          #CUSTOM_DOMAIN: optionaldomain.com
+          CONFIG_FILE: mkdocs.yml
+          # EXTRA_PACKAGES: build-base
+          # GITHUB_DOMAIN: github.myenterprise.com
+          # REQUIREMENTS: requirements.txt
+      # - name: Setup github user infos
+      #   env:
+      #     # GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+      #     GITHUB_TOKEN: ${{ secrets.BEYOND_CO_BOT_SECRET_KEY }}
+      #   run: |
+      #     git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      #     git config user.name "${GITHUB_ACTOR}"
+      #     git config user.email "${GITHUB_ACTOR}"@users.noreply.github.com
+      #     git remote rm origin
+      #     git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+      # # - name: Build the site
+      # #   run: mkdocs build
+      # - name: Deploy with the token
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.BEYOND_CO_BOT_SECRET_KEY }}
+      #   run: mkdocs gh-deploy --force
