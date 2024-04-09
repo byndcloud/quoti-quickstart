@@ -13,11 +13,6 @@ jobs:
         with:
           app-id: ${{ vars.BEYOND_CO_BOT_ID }}
           private-key: ${{ secrets.BEYOND_CO_BOT_PRIVATE_KEY }}
-      - name: Shows token generated
-        run: |
-          echo "app-id = ${{ vars.BEYOND_CO_BOT_ID }}"
-          echo "private-key = ${{ secrets.BEYOND_CO_BOT_PRIVATE_KEY }}"
-          echo "Token = ${{ steps.generate-token.outputs.token }}"
       - name: Checkout
         uses: actions/checkout@v4.1.1
         with:
