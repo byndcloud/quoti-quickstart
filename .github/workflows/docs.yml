@@ -23,8 +23,7 @@ jobs:
           python-version: 3.x
       - name: Install dependencies
         run: |
-          pip install mkdocs
-          pip install mkdocs-bootstrap
+          pip install -r requirements.txt
       - name: Setup github user infos
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
