@@ -1,5 +1,10 @@
 # Quoti UI Builder [Public Beta]
 
+!!! warning "Documentação descontinuada"
+    Esta página faz parte de uma versão descontinuada da documentação. Está presente neste acervo e neste formato enquanto seu conteúdo não é inteiramente migrado para as demais sessões desta documentação.
+
+
+
 
 🔜 **Em breve** será possível construir interfaces via UI com poucos cliques dentro do Quoti. Nosso UI Builder está atualmente em versão Alpha sendo desenvolvido e testado, estamos melhorando a experiência de usuário e a expectativa é que tenhamos a primeira versão beta em 2022Q2.
 

@@ -1,5 +1,10 @@
 # Development &  Production modes
 
+!!! warning "Documentação descontinuada"
+    Esta página faz parte de uma versão descontinuada da documentação. Está presente neste acervo e neste formato enquanto seu conteúdo não é inteiramente migrado para as demais sessões desta documentação.
+
+
+
 
 
 Ao [desenvolver extensões](https://www.notion.so/Quoti-Extensions-d3af129ede05415fb370dee8587d758f?pvs=21) utilizando o Quoti os desenvolvedores podem contar com dois ambientes de execução dentro de uma mesma organização para cada extensão.

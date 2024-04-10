@@ -1,5 +1,10 @@
 # Quoti Auth
 
+!!! warning "Documentação descontinuada"
+    Esta página faz parte de uma versão descontinuada da documentação. Está presente neste acervo e neste formato enquanto seu conteúdo não é inteiramente migrado para as demais sessões desta documentação.
+
+
+
 
 
 É o sistema de autenticação built-in que pode ser usado como middleware de autenticação nas suas APIs desenvolvidas e hospedadas em qualquer lugar.

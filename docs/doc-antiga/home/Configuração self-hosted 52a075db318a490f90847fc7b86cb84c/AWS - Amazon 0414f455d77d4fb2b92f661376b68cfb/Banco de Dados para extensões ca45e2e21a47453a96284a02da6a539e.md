@@ -1,5 +1,10 @@
 # Banco de Dados para extensões
 
+!!! warning "Documentação descontinuada"
+    Esta página faz parte de uma versão descontinuada da documentação. Está presente neste acervo e neste formato enquanto seu conteúdo não é inteiramente migrado para as demais sessões desta documentação.
+
+
+
 
 
 Por padrão o Quoti tem integração com o Firebase Firestore como banco de dados para extensões. Para utilizar o Firestore veiculado a sua instância do Quoti:
