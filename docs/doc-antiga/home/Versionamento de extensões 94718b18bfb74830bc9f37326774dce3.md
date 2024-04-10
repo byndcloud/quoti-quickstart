@@ -1,11 +1,11 @@
 # Versionamento de extensões
 
-Owner: Levi Nóbrega
 
-<aside>
+
+
 💡 No desenvolvimento de extensões para o Quoti é possível atribuir versões a medida que você realiza o *deploy* de uma extensão. Portanto, é possível retornar a versão de uma extensão no [ambiente de produção](Development%20&%20Production%20modes%20fa2447cbee4d454e958644a2362230a9.md), caso necessário.
 
-</aside>
+
 
 ## Tutoriais
 

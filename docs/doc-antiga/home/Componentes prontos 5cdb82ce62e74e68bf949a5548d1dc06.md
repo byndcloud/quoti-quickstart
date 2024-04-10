@@ -1,6 +1,6 @@
 # Componentes prontos
 
-Owner: Levi Nóbrega
+
 
 Para agilizar o seu desenvolvimento, contamos com um *Storybook* de componentes prontos para uso nas suas extensões.
 

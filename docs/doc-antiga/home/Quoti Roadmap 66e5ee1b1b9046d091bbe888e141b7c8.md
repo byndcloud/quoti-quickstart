@@ -1,13 +1,13 @@
 # Quoti Roadmap
 
-Owner: Victor Aurélio
 
-<aside>
+
+
 💡 Esta página contém o Roadmap do Quoti. 
 
 Por aqui é possível acompanhar todas as atualizações da plataforma.
 
-</aside>
+
 
 [21Q4](Quoti%20Roadmap%2066e5ee1b1b9046d091bbe888e141b7c8/21Q4%20d2f8e9d0b20a426bb42b1c4f77593ae4.md)
 

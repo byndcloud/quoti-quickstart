@@ -1,6 +1,6 @@
 # ACLs & Roles
 
-Owner: Levi Nóbrega
+
 
 ## Permissões
 
@@ -11,10 +11,10 @@ No Quoti é possível criar **permissões** e atribui-las a [grupos de usuários
 - Como criar uma permissão?
     
     
-    <aside>
+    
     🔜 Parece que você chegou cedo demais. Em breve você encontrará mais informações nesta página.
     
-    </aside>
+    
     
 - Como deletar uma permissão?
 - Como atribuir uma permissão para um perfil?

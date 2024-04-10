@@ -114,4 +114,4 @@ Essa estrutura de menus adaptativos contribui para uma interface de usuário org
 
 O Quoti é mais do que uma plataforma de gestão e comunicação; é um ecossistema expansivo de ferramentas e possibilidades, capacitando empresas a se adaptarem e prosperarem em um ambiente empresarial dinâmico.
 
-[Página antiga de documentação](doc-antiga/index.md)
+[Página antiga de documentação](doc-antiga/home.md)

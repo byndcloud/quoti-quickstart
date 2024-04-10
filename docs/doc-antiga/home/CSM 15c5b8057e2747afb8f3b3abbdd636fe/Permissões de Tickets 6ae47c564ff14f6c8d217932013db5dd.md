@@ -1,6 +1,6 @@
 # Permissões de Tickets
 
-Owner: Flavio Nascimento
+
 
 Para nomenclatura das permissões segue-se o [Padrão de Permissões](https://www.notion.so/Permiss-es-Naming-Convetion-em-desenvolvimento-37d59a55f38d43bba6631720ec8c8873?pvs=21)
 

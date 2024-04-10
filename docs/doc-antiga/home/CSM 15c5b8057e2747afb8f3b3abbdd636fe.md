@@ -1,11 +1,11 @@
 # CSM
 
-Owner: Levi Nóbrega
 
-<aside>
+
+
 💡 Aqui você encontrará mais informações sobre as funcionalidades que compõe os módulos do Quoti CSM
 
-</aside>
+
 
 ## Permissões por módulos
 

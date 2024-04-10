@@ -1,12 +1,12 @@
 # Documentações
 
-<aside>
+
 ➡️ Documentações do Projeto públicas e privadas encontra-se organizadas nesta página
 
 🔒 Páginas privadas
 🌎 Páginas públicas
 
-</aside>
+
 
 # ➡️ Quoti QuickStart
 
@@ -68,19 +68,19 @@
 
 # ➡️ Extensões do Quoti
 
-<aside>
+
 🔒 Manuais e instruções para desenvolver e trabalhar com extensões do Quoti.
 
-</aside>
+
 
 [Quoti Extensions](https://www.notion.so/Quoti-Extensions-d3af129ede05415fb370dee8587d758f?pvs=21)
 
 # ➡️  Marketplace de Extensões
 
-<aside>
+
 🔒 Aqui estão especificações técnicas sobre o **Marketplace** da Extensões
 
-</aside>
+
 
 - Introdução e Guias
 - Documentação Técnica
@@ -137,10 +137,10 @@
 
 # ➡️ Documentações linkadas na plataforma e não correlacionadas diretamente com uma feature
 
-<aside>
+
 🫂 As documentações listadas aqui estão sendo utilizadas na platforma (link público). Portanto, não podem ser apagadas pois podem, talvez, quebrar algum link da plataforma.
 
-</aside>
+
 
 [Documentação para utilizar Youtube como provedor de Vídeos do Quoti](https://www.notion.so/Documenta-o-para-utilizar-Youtube-como-provedor-de-V-deos-do-Quoti-b3fa4bb9a7874d71aec53a4e650cf696?pvs=21)
 

@@ -1,6 +1,6 @@
 # Quoti Auth
 
-Owner: Levi Nóbrega
+
 
 É o sistema de autenticação built-in que pode ser usado como middleware de autenticação nas suas APIs desenvolvidas e hospedadas em qualquer lugar.
 

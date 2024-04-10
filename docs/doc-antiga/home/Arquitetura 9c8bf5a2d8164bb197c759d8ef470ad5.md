@@ -1,6 +1,6 @@
 # Arquitetura
 
-Owner: Levi Nóbrega
+
 
 ## Arquitetura da infraestrutura da Plataforma
 

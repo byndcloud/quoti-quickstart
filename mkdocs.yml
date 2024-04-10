@@ -54,20 +54,48 @@ nav:
       - Hooks: ./under-development.md
     - Quoti CLI Avançado: ./under-development.md
     - Publicação no Marketplace: ./under-development.md
-  - Atualizações:
+  - Comunidade:
     - Como contribuir: ./updates/how-to-contribute.md
     - Processo de revisão e atualização: ./under-development.md
     - Feedback e contribuições dos usuários: ./under-development.md
     - Anexos e Recursos Adicionais:
-      - Glossário de termos: ./under-development.md
-      - FAQ (Perguntas Frequentes): ./under-development.md
       - Links úteis e recursos externos: ./under-development.md
   - FAQ:
+    - Gerais: ./faq/index.md
     - Ambiente CSM: ./faq/csm/index.md
+  - Glossário: ./glossary/index.md
+  - Documentação Antiga: ./doc-antiga/home.md
 extra_css:
   - ./style.css
 theme:
   name: material
+  features:
+    - search.suggest
   analytics:
     gtag: G-3QNY6VLCC5
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- attr_list
+- md_in_html
+- pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
 # locale: pt_BR

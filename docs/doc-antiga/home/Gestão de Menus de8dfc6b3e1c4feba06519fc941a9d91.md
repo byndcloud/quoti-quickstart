@@ -1,12 +1,12 @@
 # Gestão de Menus
 
-Owner: Levi Nóbrega
 
-<aside>
+
+
 💡 Os menus têm como principal finalidade no Quoti a exibição de botões que funcionam como links para acesso à módulos, extensões ou links externos à plataforma. 
 Se você não estiver visualizando um menu, adicione itens ao menu e [confira as permissões](Gesta%CC%83o%20de%20Menus%20de8dfc6b3e1c4feba06519fc941a9d91.md).
 
-</aside>
+
 
 ## Menu Lateral
 
@@ -151,10 +151,10 @@ Se você não estiver visualizando um menu, adicione itens ao menu e [confira as
 
 ![Captura de Tela 2021-12-10 às 18.46.05.png](Gesta%CC%83o%20de%20Menus%20de8dfc6b3e1c4feba06519fc941a9d91/Captura_de_Tela_2021-12-10_as_18.46.05.png)
 
-<aside>
+
 💡 O menu superior sempre é exibido mesmo que não tenha itens associados à ele. Atualmente, só é possível [desativar o menu superior dentro de uma extensão.](Gesta%CC%83o%20de%20Menus%20de8dfc6b3e1c4feba06519fc941a9d91.md)
 
-</aside>
+
 
 - **Adicionando itens ao menu**
     
@@ -175,10 +175,10 @@ Se você não estiver visualizando um menu, adicione itens ao menu e [confira as
 
 ![minhafaculdade.app_eds_menus(iPhone X) (2).png](Gesta%CC%83o%20de%20Menus%20de8dfc6b3e1c4feba06519fc941a9d91/minhafaculdade.app_eds_menus(iPhone_X)_(2).png)
 
-<aside>
+
 💡 Recomendado para uso em aplicações mobile.
 
-</aside>
+
 
 - **Adicionando itens ao menu**
     
@@ -199,10 +199,10 @@ Se você não estiver visualizando um menu, adicione itens ao menu e [confira as
 
 ![Captura de Tela 2021-12-10 às 09.20.46.png](Gesta%CC%83o%20de%20Menus%20de8dfc6b3e1c4feba06519fc941a9d91/Captura_de_Tela_2021-12-10_as_09.20.46.png)
 
-<aside>
+
 💡 Atualmente os atalhos são universais para a aplicação. É possível ativar ou desativar o botão de acesso aos atalhos por perfil, mas não é possível atribuir atalhos específicos por perfil.
 
-</aside>
+
 
 - **Adicionando itens ao menu**
     1. Acesse `https://quoti.cloud/{organização}/shortcuts`;

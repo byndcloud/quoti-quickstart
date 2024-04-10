@@ -1,11 +1,11 @@
 # Educacional
 
-Owner: Levi Nóbrega
 
-<aside>
+
+
 💡 Conjunto de módulos e extensões disponíveis na plataforma para clientes educacionais.
 
-</aside>
+
 
 - Feed de notícias
     - Categorias de postagens

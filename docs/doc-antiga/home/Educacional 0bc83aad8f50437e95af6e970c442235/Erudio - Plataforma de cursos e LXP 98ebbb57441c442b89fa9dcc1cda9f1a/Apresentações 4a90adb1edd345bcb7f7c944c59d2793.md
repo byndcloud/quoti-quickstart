@@ -1,6 +1,6 @@
 # Apresentações
 
-Owner: Levi Nóbrega
+
 
 [Apresentação Erudio - Secretaria de educação](https://docs.google.com/presentation/d/1pn71i9P0QqalGaPrkl96z9vZRx80_B1kGK7242nrloo/edit?usp=drivesdk)
 

@@ -1,6 +1,6 @@
 # FAQ: Developing extensions with Quoti
 
-Owner: Victor Aurélio
+
 
 - [Vue warn]: Error in render: "TypeError: Ctor.options is undefined”
     

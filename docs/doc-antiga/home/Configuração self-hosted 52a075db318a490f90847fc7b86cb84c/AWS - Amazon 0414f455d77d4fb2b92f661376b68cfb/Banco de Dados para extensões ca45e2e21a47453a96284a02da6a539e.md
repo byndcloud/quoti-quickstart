@@ -1,6 +1,6 @@
 # Banco de Dados para extensões
 
-Owner: Levi Nóbrega
+
 
 Por padrão o Quoti tem integração com o Firebase Firestore como banco de dados para extensões. Para utilizar o Firestore veiculado a sua instância do Quoti:
 

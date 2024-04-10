@@ -1,6 +1,6 @@
 # Hooks (Gatilhos)
 
-Owner: Victor Aurélio
+
 
 # Definição
 

@@ -1,18 +1,18 @@
 # Chat e mensageria
 
-Owner: Levi Nóbrega
 
-<aside>
+
+
 💡 Com a Quoti Platform é possível criar salas de conversa, atribuir a grupos de usuários e realizar troca de mensagens através das interfaces prontas do Quoti.
 
-</aside>
+
 
 ## Definições
 
-<aside>
+
 🔜 Parece que você chegou cedo demais. Em breve você encontrará mais informações nesta página.
 
-</aside>
+
 
 ## Tutoriais
 

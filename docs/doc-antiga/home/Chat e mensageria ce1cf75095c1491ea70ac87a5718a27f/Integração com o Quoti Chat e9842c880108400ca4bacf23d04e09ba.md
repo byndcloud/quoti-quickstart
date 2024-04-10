@@ -1,6 +1,6 @@
 # Integração com o Quoti Chat
 
-Owner: Levi Nóbrega
+
 
 ## Começo rápido
 
@@ -197,7 +197,7 @@ Considerando um cenário em que você possui um *Live Chat* desenvolvido fora da
     
     Após a definição desses dados, eles passarão a ser retornados nas APIs de consulta (GET /chat/rooms) e no Webhook executado após cada alteração de uma sala específica. Os dados adicionais sempre serão retornados na propriedade `jsonData`.
     
-    <aside>
+    
     ⚠️ **ATENÇÃO:** Caso você faça atualização nessa propriedade através do método PUT de /chat/rooms todo o objeto jsonData será sobrescrito e o conteúdo anterior poderá ser perdido. Não há ***merge*** automático dos dados dessa propriedade.
     
-    </aside>
+    

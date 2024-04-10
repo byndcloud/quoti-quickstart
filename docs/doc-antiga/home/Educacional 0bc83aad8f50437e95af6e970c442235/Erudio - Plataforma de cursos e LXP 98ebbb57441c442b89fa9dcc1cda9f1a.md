@@ -1,15 +1,15 @@
 # Erudio - Plataforma de cursos e LXP
 
-Owner: Levi Nóbrega
+
 
 ## Sobre
 
-<aside>
+
 💡 Suas aulas totalmente digitais!
 
 O Erudio oferece os recursos para que professores, alunos e gestores tenham uma experiência **prática**, **ágil** e **completa** no **EAD**.
 
-</aside>
+
 
 ## Overview
 

@@ -1,13 +1,13 @@
 # Banco de dados MySQL
 
-Owner: Levi Nóbrega
+
 
 Para configurarmos nosso banco de dados em ambiente Amazon, utilizaremos o Amazon RDS.
 
-<aside>
+
 💡 **Amazon RDS** facilita a configuração, a operação e o dimensionamento de um banco de dados relacional na nuvem.
 
-</aside>
+
 
 [2022-02-16 11-11-37.mp4](Banco%20de%20dados%20MySQL%20d7acc783c0bd4bc0955de2289287712b/2022-02-16_11-11-37.mp4)
 

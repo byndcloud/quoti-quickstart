@@ -1,6 +1,6 @@
 # Development &  Production modes
 
-Owner: Levi Nóbrega
+
 
 Ao [desenvolver extensões](https://www.notion.so/Quoti-Extensions-d3af129ede05415fb370dee8587d758f?pvs=21) utilizando o Quoti os desenvolvedores podem contar com dois ambientes de execução dentro de uma mesma organização para cada extensão.
 
@@ -10,10 +10,10 @@ O ambiente de desenvolvimento é acessível pelo link: `[https://quoti.cloud/{or
 
 Este modo tem como principal finalidade dar agilidade na visualização das alterações de código da sua extensão durante o processo de desenvolvimento. Para isso, este ambiente conta com a funcionalidade de *live reload* que atualiza a página toda vez que uma alteração no código local é feita. **O *live reload* é ativado ao executar o comando `qt serve` da [Quoti CLI](Quoti%20CLI%2012e230f5cbd6471f92e10822e4db210c.md) na pasta de uma extensão.
 
-<aside>
+
 💡 Clique para mais detalhes de como [desenvolver extensões](https://www.notion.so/Quoti-Extensions-d3af129ede05415fb370dee8587d758f?pvs=21) ou como utilizar a [Quoti CLI](Quoti%20CLI%2012e230f5cbd6471f92e10822e4db210c.md).
 
-</aside>
+
 
 ## Production mode
 
@@ -23,10 +23,10 @@ Diferente do modo de desenvolvimento, este ambiente não possui funcionalidade d
 
 O modo de produção conta ainda com um histórico de versões que podem ser renomeadas e ativadas a qualquer momento. 
 
-<aside>
+
 💡 Clique para mais detalhes de como [controlar as versões do ambiente de produção](Versionamento%20de%20extenso%CC%83es%2094718b18bfb74830bc9f37326774dce3.md).
 
-</aside>
+
 
 ## Troubleshooting
 
