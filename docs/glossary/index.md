@@ -1,34 +1,44 @@
-**Organização:** Representa um tenant na estrutura multi-tentant da Plataforma Quoti. Cada organização é completamente isolada da outra. Também pode ser chamado de ambiente Quoti.  ****
+<!-- ## Glossário da Plataforma Quoti -->
 
-**Tabelas:** São tabelas auxiliares às funcionalidades e recursos da Plataforma Quoti permitindo armazenamento, consulta e gestão de dados com muita simplicidade. Existem três tipos de tabelas:
+Este glossário contém termos e conceitos chave usados na Plataforma Quoti, proporcionando uma visão clara sobre sua arquitetura e funcionalidades.
 
-- *Tabelas de sistema*: tabelas que a Plataforma Quoti gera automaticamente ao configurar dados adicionais de algum recurso da plataforma (perfis de usuários, tipos de produtos, tipos de grupos, etc.)
-- *Quoti Databases*: tabelas criadas por usuários com permissão para criar novas tabelas em organizações do Quoti. Podem ser utilizadas para os mais diversos fins, especialmente apoiando extensões e fluxo próprios das aplicações desenvolvidas no Quoti. Ao criar uma tabela utilizando esse recurso automaticamente são gerados endpoints para consulta, atualização e criação de dados. Telas e componentes do Quoti para visualização e manipulação de dados, também, podem ser utilizados para facilitar o uso.
-    - Tabelas virtuais: Modelo comum de tabela que pode ser criada utilizando esse recurso.
-    - Tabelas materializadas: Versão mais recente e robusta de tabela que pode ser criada utilizando esse recurso.
+### Organização
+Representa um `tenant` na estrutura multi-tenant da Plataforma Quoti. Cada organização, ou ambiente Quoti, é completamente isolada das demais, assegurando privacidade e segurança dos dados.
 
-**Extensão:** São interfaces (telas) complementares desenvolvidas com low-code em HTML, Vue.js e CSS. É através das extensões que é possível construir experiências visuais completamente personalizadas para os seus clientes.
+### Tabelas
+Tabelas são estruturas essenciais para o armazenamento, consulta e gestão de dados dentro do Quoti, classificadas em três tipos:
 
-**Fluxo ou Workflow:** É a forma de criar automações, rotinas e lógica de negócio dentro da plataforma Quoti. Um fluxo é sempre iniciado a partir de um evento, como: intervalo de tempo, data e hora específica, chamada de API, entre outros. A partir do seu acionamento, é possível executar atividades sequenciais e/ou paralelas como: enviar emails, consultar dados, criar documentos, preencher formulários e muito mais! [Saiba mais sobre Workflows](home/Workflow%20designer%204db62d3e43b44dda889f50c721426098.md).
+- **Tabelas de Sistema:** Criadas automaticamente pela plataforma para suportar configurações e recursos adicionais (como perfis de usuários e tipos de produtos).
+- **Quoti Databases:** Tabelas definidas por usuários autorizados, apoiando extensões e processos de negócio customizados. A criação de uma tabela gera automaticamente endpoints de API e permite o uso de interfaces do Quoti para manipulação dos dados.
+  - **Tabelas Virtuais:** Tabelas comuns que podem ser criadas no Quoti.
+  - **Tabelas Materializadas:** Versões avançadas de tabelas, oferecendo robustez e eficiência.
 
-**Usuário**: Para a plataforma Quoti, um *Usuário* é a representação de algo (*service-accounts*) ou alguém que realiza um acesso autenticado à plataforma (páginas públicas ou privadas).
+### Extensão
+Interfaces complementares desenvolvidas via low-code usando HTML, Vue.js e CSS, permitindo a criação de experiências visuais personalizadas para diferentes necessidades.
 
-**Permissões**: É um dos recursos nativos da plataforma e podem ser de dois tipos:
+### Fluxo ou Workflow
+Automatizações e rotinas que implementam a lógica de negócio dentro da plataforma. Um workflow é desencadeado por eventos específicos e pode realizar ações como envio de e-mails, consultas de dados e preenchimento de formulários. [Saiba mais sobre Workflows](home/Workflow%20designer%204db62d3e43b44dda889f50c721426098.md).
 
-- Padrão: permissões já vem por padrão na plataforma;
-- Customizadas: permissões criadas pelos usuários que possuem permissão para criar outras permissões.
-    
-    Na prática são palavras que podem ser atribuídas à perfis de usuários ou à grupos de usuários e são utilizadas para lógicas de validação e regras de negócio. Por exemplo, uma permissão como "product.create" permite que um usuário crie novos produtos.
-    
+### Usuário
+Na plataforma Quoti, um *Usuário* é um agente (pessoa ou *service-account*) que realiza acessos autenticados, seja a páginas públicas ou privadas.
 
-**Aplicação:** É o conjunto de extensões, fluxos e tabelas.
+### Permissões
+Recursos nativos da plataforma que regulam o acesso e as ações dos usuários, podendo ser:
 
+- **Padrão:** Permissões pré-definidas disponíveis na plataforma.
+- **Customizadas:** Permissões criadas por usuários com os devidos privilégios, destinadas a validar ações e definir regras de negócio, como a permissão "product.create".
 
-**Recursos:** São o conjunto de ferramentas (interfaces e APIs) disponibilizadas pela plataforma Quoti para que você utilize ou modifique de acordo com as suas necessidades. São de 6 (seis) tipos:
+### Aplicação
+Conjunto integrado de extensões, fluxos e tabelas que formam uma solução completa dentro do Quoti.
+
+### Recursos
+Conjunto de ferramentas fornecidas pela plataforma Quoti, que incluem:
 
 - Segurança
-- Serviços fundamentais (core)
-- No/Low code
-- Pro code
-- Ferramentas de desenvolvimento
-- Serviços de notificação e exibição
+- Serviços Fundamentais (Core)
+- No/Low Code
+- Pro Code
+- Ferramentas de Desenvolvimento
+- Serviços de Notificação e Exibição
+
+Esses recursos são fundamentais para criar, personalizar e otimizar aplicações dentro da plataforma Quoti.
