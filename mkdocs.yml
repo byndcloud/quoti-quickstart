@@ -23,7 +23,7 @@ nav:
       - Introdução aos formulários: 
         - Criação e edição de formulários: ./essential/forms/intro.md
         - Utilização do CRUD via interface: ./essential/forms/crud.md
-        - Básico de FormsFlows: ./under-development.md
+        - Básico de FormsFlows: ./essential/forms/flow-init.md
       - Extensões Quoti:
         - Visão geral e exemplos: ./under-development.md
         - Adicionar e gerenciar extensões no menu: ./under-development.md
