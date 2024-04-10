@@ -20,23 +20,23 @@ FormFlows são configurados diretamente na página de edição de um formulário
 
 ### Conceitos
 
-#### Flows
+#### 🛣 Flows
 
 Flows são como estradas dentro de um mapa de navegação, definindo as rotas que os dados seguem. Um arquivo JSON pode conter múltiplos flows, cada um podendo conter condições para sua execução.
 
-#### Nodes
+#### 📦 Nodes
 
 São os pontos de parada ou interseções dentro de um Flow. Cada Node pode realizar uma ou mais ações, operando de forma paralela até sua conclusão antes de passar para o próximo Node.
 
-#### Actions
+#### ⏯️ Actions
 
 As Actions são as atividades realizadas em cada Node. Pense nelas como as tarefas que você realiza em cada ponto de parada em uma viagem.
 
-#### Wires
+#### 🧬 Wires
 
 Wires são as conexões entre Nodes, como as estradas que ligam cidades. Eles definem a sequência de navegação entre os Nodes, e podem seguir caminhos diferentes baseados em condições específicas.
 
-### Analogia
+### 😌 Analogia
 
 Imagine um FormFlow como um parque temático. Cada **Flow** é um caminho pelo parque, cada **Node** é uma atração e as **Actions** são as atividades que você pode realizar em cada atração. Os **Wires** são os caminhos que conectam as atrações, e você pode escolher diferentes caminhos (Wires) baseados nas condições do dia (lógica condicional).
 
