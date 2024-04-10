@@ -6,9 +6,11 @@ Bem-vindo ao repositório oficial da documentação do Quoti no GitHub. Este rep
 
 O Quoti é uma plataforma abrangente que capacita empresas e organizações a gerir projetos de maneira mais eficaz, aprimorar a comunicação interna e externa e facilitar a tomada de decisões baseadas em dados. Construído para proporcionar uma experiência intuitiva e fluída aos seus usuários, o Quoti se destaca por suas bases de dados customizáveis, métodos de autenticação versáteis e amplas capacidades de integração.
 
-## Usando o MkDocs
+## Documentação Oficial
 
-A documentação é criada com o MkDocs, um gerador de sites estáticos rápido, simples e visualmente agradável, focado na construção de documentação de projetos. Os arquivos de origem da documentação são escritos em Markdown e configurados com um único arquivo de configuração YAML.
+Para visualizar a documentação em seu estado atual, visite o site oficial: [docs.quoti.cloud](http://docs.quoti.cloud/). Aqui você pode explorar todos os aspectos da plataforma Quoti, entender melhor suas funcionalidades e aprender como integrá-la ao seu negócio ou instituição educacional.
+
+Obrigado por interessar-se em contribuir para a documentação do Quoti e ajudar a comunidade a crescer!
 
 ## Como Contribuir
 
@@ -21,9 +23,8 @@ Para contribuir, siga os passos:
 3. **Commit e push das suas alterações:** Após fazer as alterações, faça commit para o seu fork e então um push para enviar as alterações para o seu repositório no GitHub.
 4. **Crie um Pull Request:** No GitHub, no repositório original do `quoti-docs`, crie um pull request para que sua contribuição seja revisada e, se tudo estiver de acordo, incorporada à documentação oficial.
 
-## Documentação Oficial
 
-Para visualizar a documentação em seu estado atual, visite o site oficial: [docs.quoti.cloud](http://docs.quoti.cloud/). Aqui você pode explorar todos os aspectos da plataforma Quoti, entender melhor suas funcionalidades e aprender como integrá-la ao seu negócio ou instituição educacional.
+## Usando o MkDocs
 
-Obrigado por interessar-se em contribuir para a documentação do Quoti e ajudar a comunidade a crescer!
+A documentação é criada com o MkDocs, um gerador de sites estáticos rápido, simples e visualmente agradável, focado na construção de documentação de projetos. Os arquivos de origem da documentação são escritos em Markdown e configurados com um único arquivo de configuração YAML.
 
