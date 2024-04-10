@@ -42,7 +42,7 @@ nav:
         - integrações: ./under-development.md 
         - permissões: ./under-development.md
   - Avançados:
-    - Single Sign-On (SSO) com Quoti: ./under-development.md
+    - Single Sign-On (SSO) com Quoti: ./sso
     - Configuração com:
       - Okta: ./under-development.md
       - Google: ./under-development.md
