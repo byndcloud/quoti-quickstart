@@ -1,4 +1,4 @@
-# 🏗️ Dúvidas frequentes sobre ambientes CSM
+# Dúvidas frequentes sobre ambientes CSM
 
 Nessa página encontra-se uma lista de perguntas frequentes para integrações e uso da Plataforma Quoti em ambientes CSM.
 
