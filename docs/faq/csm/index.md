@@ -19,37 +19,6 @@ Portanto, com essas duas opções, você pode acessar tanto os itens principais 
 Link da documentação na API do Quoti: [https://api.quoti.cloud/api-explorer/?orgSlug={orgSlug}#/Service_catalog_item/get_{orgSlug}_resources_service_catalog_item](https://api.quoti.cloud/api-explorer/?orgSlug={orgSlug}#/Service_catalog_item/get_{orgSlug}_resources_service_catalog_item)
 
 
-## Dúvidas a respeito de chamados
-
-### Qual endpoint utilizar para fazer atualizações em um chamado existente?
-
-Resposta em andamento
-
-### Qual endpoint utilizar para consultar status de um chamado específico?
-
-Resposta em andamento
-
-### Como fazer uma consulta por chamados que estão vinculados a um usuário especifico?
-
-Resposta em andamento
-
-### Como fazer uma consulta por chamados que são de um tipo especifico?
-
-Resposta em andamento
-
-
-Aqui está a FAQ organizada e formatada em Markdown para a plataforma Quoti, com os textos aprimorados para clareza e precisão:
-
----
-
-## FAQ - Quoti
-
-### Verificação dos Serviços no Catálogo e Listagem
-
-**Como consultar os serviços no catálogo?**
-- **Endpoint**: `GET api.quoti.cloud/resources/service_catalog_item?where[parent]=home`
-- **Descrição**: Use este endpoint para listar os serviços disponíveis no catálogo. Para acessar sub-serviços, substitua `home` pelo `idDoItemPai` desejado no parâmetro `where[parent]`.
-
 ### Informações do Catálogo de Serviço
 
 **Como listar as informações do catálogo de serviço?**
@@ -59,22 +28,31 @@ Aqui está a FAQ organizada e formatada em Markdown para a plataforma Quoti, com
   - Use `GET api.csm.quoti.cloud/resources/categories/<categoryId>` para listar uma categoria e obter o ID do formulário de perguntas.
   - Para as perguntas de um formulário específico, utilize `GET api.quoti.cloud/resources/forms/<formId>`.
 
+
+## Dúvidas a respeito de chamados
+
+
 ### Consulta por Chamados de um Usuário Específico
 
 **Como fazer uma consulta por chamados vinculados a um usuário específico?**
-- **Endpoint**: `GET api.csm.quoti.cloud/tickets?where[assignedToUser][0]=<idDoUsuario>`
+- **Endpoint**: `GET api.csm.quoti.cloud/api/v1/{orgSlug}/tickets?where[assignedToUser][0]=<idDoUsuario>`
 - **Descrição**: Este endpoint permite listar chamados atribuídos a um usuário específico, substituindo `<idDoUsuario>` pelo ID apropriado do usuário.
+
+**Como fazer uma consulta por chamados que são de um tipo especifico?**
+
+- **Endpoint**: `GET api.csm.quoti.cloud/api/v1/{orgSlug}/tickets?where[ticketTypeId]=<idDoTipo>`
+- **Descrição**: Este endpoint permite listar chamados que são de um tipo específico, substituindo `<idDoTipo>` pelo ID apropriado.
 
 ### Atualizações em um Chamado Existente
 
 **Qual endpoint utilizar para fazer atualizações em um chamado?**
-- **Endpoint**: `PUT api.csm.quoti.cloud/tickets/<ticketId>`
+- **Endpoint**: `PUT api.csm.quoti.cloud/api/v1/{orgSlug}/tickets/<ticketId>`
 - **Descrição**: Use este endpoint para atualizar as informações de um chamado existente. Substitua `<ticketId>` pelo ID do chamado que você deseja atualizar.
 
 ### Consulta de Status de um Chamado Específico
 
 **Como consultar o status de um chamado específico?**
-- **Endpoint**: `GET api.csm.quoti.cloud/tickets/<ticketId>`
+- **Endpoint**: `GET api.csm.quoti.cloud/api/v1/{orgSlug}/tickets/<ticketId>`
 - **Descrição**: Este endpoint fornece o status atual de um chamado específico. O status é retornado no corpo da resposta da requisição.
 
 ---
