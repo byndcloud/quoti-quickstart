@@ -87,6 +87,8 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+plugins: 
+  - macros
 markdown_extensions:
   # Python Markdown
   - abbr
