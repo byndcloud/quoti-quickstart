@@ -38,3 +38,6 @@ No Quoti, o conceito de usuário é expandido e diversificado, atendendo a difer
 ## Conclusão
 
 O papel do usuário no Quoti é abrangente e vital para a operação e sucesso da plataforma. Com uma variedade de funções e responsabilidades, os usuários no Quoti podem efetivamente gerenciar, desenvolver e utilizar a plataforma para atender às suas necessidades e objetivos, impulsionando a eficiência e inovação dentro de suas organizações.
+
+---
+{{ include_file('docs/faq/user/index.md') }}
