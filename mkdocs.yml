@@ -58,8 +58,6 @@ nav:
     - Como contribuir: 
       - Faça um fork: ./updates/how-to-contribute.md
       - Abrir uma Issues: ./updates/new-issues.md
-      
-    
     - Tempaltes: 
       - Issues: ./templates/issues.md
       - Pull Request: ./templates/pullRequests.md

@@ -18,8 +18,6 @@ Localize o botão verde "New issue" e clique nele para iniciar a criação de um
 
 **4. Preencha os Detalhes da Issue com Cuidado:**
 
-### Templates para seguir uma organização
-
 - 💡 [Template para Issues](../../templates/issues)
 
 * **Título:** Seja conciso e descritivo no título da sua issue, resumindo o problema ou dúvida que você está enfrentando.
@@ -48,7 +46,7 @@ Agradecemos imensamente a sua colaboração!
 **Juntos, podemos construir uma documentação do Quoti cada vez mais completa e útil para todos!**
 
 
-## Templates para seguir uma organização
+## Conheça nossos Templates
 
 - 💡 [Template para Issues](../../templates/issues)
 - 🔄 [Template para Pull Requests](../../templates/pullRequests) 
