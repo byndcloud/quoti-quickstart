@@ -6,6 +6,7 @@
 
 ### Tipo de Mudança
 [Marque com "x" as opções relevantes abaixo.]
+
 - [ ] Correção de bug
 - [ ] Nova funcionalidade
 - [ ] Melhoria de desempenho

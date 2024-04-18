@@ -58,6 +58,9 @@ nav:
     - Como contribuir: ./updates/how-to-contribute.md
     - Tempaltes: 
       - Issues: ./templates/issues.md
+      - Pull Request: ./templates/pullRequests.md
+      - Reports: ./templates/reports.md
+      - Meetings: ./templates/meetings.md
     - Processo de revisão e atualização: ./under-development.md
     - Feedback e contribuições dos usuários: ./under-development.md
     - Anexos e Recursos Adicionais:

@@ -5,9 +5,9 @@ Bem-vindo ao guia de contribuição para a nossa documentação! Se você está 
 ## Templates para seguir uma organização
 
 - 💡 [Template para Issues](../../templates/issues)
-- 🔄 [Template para Pull Requests](../../templates/pull_requests)
-- 📊 [Template para Relatórios](../../templates/relatorios)
-- 🤝 [Template para Reuniões](../../templates/reunioes)
+- 🔄 [Template para Pull Requests](../../templates/pullRequests) 
+- 📊 [Template para Relatórios](../../templates/reports)
+- 🤝 [Template para Reuniões](../../templates/meetings)
 
 ## Contribuindo com o Projeto
 
