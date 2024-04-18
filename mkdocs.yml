@@ -55,7 +55,14 @@ nav:
     - Quoti CLI Avançado: ./under-development.md
     - Publicação no Marketplace: ./under-development.md
   - Comunidade:
-    - Como contribuir: ./updates/how-to-contribute.md
+    - Como contribuir: 
+      - Faça um fork: ./updates/how-to-contribute.md
+      - Abrir uma Issues: ./updates/new-issues.md
+    - Tempaltes: 
+      - Issues: ./templates/issues.md
+      - Pull Request: ./templates/pullRequests.md
+      - Reports: ./templates/reports.md
+      - Meetings: ./templates/meetings.md
     - Processo de revisão e atualização: ./under-development.md
     - Feedback e contribuições dos usuários: ./under-development.md
     - Anexos e Recursos Adicionais:
@@ -65,6 +72,7 @@ nav:
     - Ambiente CSM: ./faq/csm/index.md
   - Glossário: ./glossary/index.md
   - Documentação Antiga: ./doc-antiga/home.md
+
 extra_css:
   - ./style.css
 theme:
