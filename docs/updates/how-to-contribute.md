@@ -2,6 +2,13 @@
 
 Bem-vindo ao guia de contribuição para a nossa documentação! Se você está interessado em melhorar a documentação do projeto, siga os passos abaixo.
 
+## Templates para seguir uma organização
+
+- 💡 [Template para Issues](../../templates/issues)
+- 🔄 [Template para Pull Requests](../../templates/pull_requests)
+- 📊 [Template para Relatórios](../../templates/relatorios)
+- 🤝 [Template para Reuniões](../../templates/reunioes)
+
 ## Contribuindo com o Projeto
 
 ### 1. Faça um Fork do Projeto
