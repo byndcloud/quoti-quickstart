@@ -55,7 +55,11 @@ nav:
     - Quoti CLI Avançado: ./under-development.md
     - Publicação no Marketplace: ./under-development.md
   - Comunidade:
-    - Como contribuir: ./updates/how-to-contribute.md
+    - Como contribuir: 
+      - Faça um fork: ./updates/how-to-contribute.md
+      - Abrir uma Issues: ./updates/new-issues.md
+      
+    
     - Tempaltes: 
       - Issues: ./templates/issues.md
       - Pull Request: ./templates/pullRequests.md
