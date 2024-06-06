@@ -37,10 +37,10 @@ nav:
       - Introdução ao Quoti CLI: ./under-development.md
       - Hello World: ./under-development.md
       - Criação de extensões:
-        - visão geral: ./under-development.md 
-        - CRUD: ./under-development.md
-        - integrações: ./under-development.md 
-        - permissões: ./under-development.md
+        - Visão Geral: ./development/cli/extensions/index.md
+        - CRUD: ./development/cli/extensions/crud.md
+        - Integrações: ./under-development.md 
+        - Permissões: ./under-development.md
   - Avançados:
     - Single Sign-On (SSO) com Quoti: ./sso
     - Configuração com:
